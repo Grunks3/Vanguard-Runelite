@@ -23,17 +23,17 @@ plugins {
     application
     kotlin("jvm") version "1.7.22"
     id("com.github.johnrengelman.shadow") version "7.1.2"
-    id("com.mark.bootstrap.bootstrap") version "63065322f4"
+  // id("com.mark.bootstrap.bootstrap") version "63065322f4"
 }
 
 // Configure the extension using a DSL block
-configure<com.mark.bootstrap.BootstrapPluginExtension> {
-    uploadType.set(com.mark.bootstrap.UploadType.FTP)
-    releaseType.set("beta")
-    baseLink.set("https://runedecay.com/")
-    passiveMode.set(false)
+//configure<com.mark.bootstrap.BootstrapPluginExtension> {
+   // uploadType.set(com.mark.bootstrap.UploadType.FTP)
+   // releaseType.set("beta")
+   // baseLink.set("https://runedecay.com/")
+   // passiveMode.set(false)
 
-}
+//}
 
 kotlin {
     jvmToolchain {
